@@ -230,14 +230,14 @@ body {
 
 .cart-items {
     display: flex;
-    flex-direction: column; /* Mahsulotlar ustma-ust joylashadi */
-    gap: 10px; /* Har bir mahsulot orasida bo‘shliq */
+    flex-direction: column; 
+    gap: 10px; 
     margin-top: 1rem;
 }
 
 .individual-cart-item {
     display: flex;
-    justify-content: space-between; /* Nom, narx va tugma yonma-yon */
+    justify-content: space-between; 
     align-items: center;
     padding: 10px 5px;
     border-radius: 5px;
@@ -257,7 +257,7 @@ body {
 }
 
 .remove-btn:hover {
-    color: red; /* O‘chirish tugmasi ustiga kelinganda rang o‘zgaradi */
+    color: red; 
 }
 
 .sidebar--footer {
