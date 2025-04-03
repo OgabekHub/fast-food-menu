@@ -155,7 +155,7 @@ body {
 .card--list {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
 }
@@ -297,4 +297,20 @@ body {
     padding: 2px 8px;
     cursor: pointer;
     margin-left: 5px;
+}
+
+
+@media (max-width: 400px){
+   .menu--list{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+   }
+   .card--list{
+    display: flex;
+ justify-content: space-between;
+   }
+   .card{
+    width: 154px;
+   }
 }
